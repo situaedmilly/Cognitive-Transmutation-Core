@@ -11,9 +11,9 @@
   "push_id": "PUSH-0001",
   "dispatch_id": "DISPATCH-0001",
   "action_repo_commit_id": "c7e01ffd25cddc5e3f32e2550082d2a7a0e630bc",
-  "remote_commit_id": "PENDING_REMOTE_COMMIT",
-  "remote_recontact_id": "PENDING_REMOTE_RECONTACT",
-  "byte_match_id": "PENDING_BYTE_MATCH",
+  "remote_commit_id": "2415ac1a1f62f80939860fd73391a4322dc6534f",
+  "remote_recontact_id": "RECONTACT-0001",
+  "byte_match_id": "BYTE-MATCH-0001:e89a979dc4d55f545b3308bf7bacf0e230fc1ab0",
   "next_branch_id": null,
   "next_pull_id": null
 }
