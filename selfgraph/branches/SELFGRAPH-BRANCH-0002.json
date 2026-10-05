@@ -1,0 +1,16 @@
+{
+  "branch_id":"SELFGRAPH-BRANCH-0002",
+  "parent_branch_id":"SELFGRAPH-BRANCH-0001",
+  "parent_gate_id":"GATE-0001",
+  "parent_pull_id":"PULL-0001",
+  "parent_push_id":"PUSH-0001",
+  "parent_receipt_id":"RECEIPT-0001",
+  "status":"ACTIVE",
+  "creation_trigger":"VERIFIED_PUSH",
+  "remote_recontact_id":"RECONTACT-0001",
+  "byte_match_id":"BYTE-MATCH-0001:e89a979dc4d55f545b3308bf7bacf0e230fc1ab0",
+  "next_pull_id":"PULL-0002",
+  "next_gate_id":"GATE-0002",
+  "receiver_id":"RECEIVER-0002",
+  "signal_id":"SIGNAL-0002"
+}
