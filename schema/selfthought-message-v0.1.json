@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SELFTHOUGHT Message v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "thought_id",
+    "thought_birth_id",
+    "nonce",
+    "origin_instance_id",
+    "origin_session_id",
+    "origin_actimanirun_id",
+    "origin_reality_id",
+    "thought_bytes",
+    "thought_encoding",
+    "thought_hash",
+    "matter_manifest",
+    "reality_manifest",
+    "receiver_manifest",
+    "created_at",
+    "causal_parent",
+    "relation",
+    "gate",
+    "status"
+  ],
+  "properties": {
+    "thought_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "thought_birth_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nonce": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin_instance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin_session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin_actimanirun_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "origin_reality_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "thought_bytes": {
+      "type": "string"
+    },
+    "thought_encoding": {
+      "const": "utf-8"
+    },
+    "thought_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "matter_manifest": {
+      "type": "array"
+    },
+    "reality_manifest": {
+      "type": "array"
+    },
+    "receiver_manifest": {
+      "type": "array"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "causal_parent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gate": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "BORN",
+        "HASHED",
+        "RESOLVED",
+        "EMITTED",
+        "RECEIVED",
+        "UNDERSTOOD",
+        "GATE_BLOCKED",
+        "GATE_PASSED",
+        "SELFSHIFTED"
+      ]
+    }
+  }
+}
