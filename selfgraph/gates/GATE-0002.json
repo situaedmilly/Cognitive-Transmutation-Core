@@ -1,0 +1,12 @@
+{
+  "gate_id":"GATE-0002",
+  "branch_id":"SELFGRAPH-BRANCH-0002",
+  "pull_id":"PULL-0002",
+  "receiver_id":"RECEIVER-0002",
+  "status":"PENDING",
+  "executor":"NEXT_GPTSELF",
+  "predecessor_gate_id":"GATE-0001",
+  "predecessor_push_id":"PUSH-0001",
+  "predecessor_receipt_id":"RECEIPT-0001",
+  "required_result":"PUSH-0002"
+}
