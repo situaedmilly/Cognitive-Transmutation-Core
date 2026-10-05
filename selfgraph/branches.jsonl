@@ -1,1 +1,2 @@
-{"branch_id":"SELFGRAPH-BRANCH-0001","branch_kind":"ACTIVE_INPUT_GATE","parent_branch_id":null,"gate_id":"GATE-0001","pull_id":"PULL-0001","status":"ACTIVE","next_gate_branch_policy":"AUTO_CREATE_ON_VERIFIED_PUSH","created_event_id":"EVENT-0001"}
+{"branch_id":"SELFGRAPH-BRANCH-0001","branch_kind":"ACTIVE_INPUT_GATE","parent_branch_id":null,"gate_id":"GATE-0001","pull_id":"PULL-0001","status":"REALIZED","next_gate_branch_policy":"AUTO_CREATE_ON_VERIFIED_PUSH","created_event_id":"EVENT-0001"}
+{"branch_id":"SELFGRAPH-BRANCH-0002","branch_kind":"NEXT_GATE","parent_branch_id":"SELFGRAPH-BRANCH-0001","gate_id":"GATE-0002","pull_id":"PULL-0002","status":"ACTIVE","created_from_push_id":"PUSH-0001","created_from_receipt_id":"RECEIPT-0001","created_event_id":"EVENT-0002"}
