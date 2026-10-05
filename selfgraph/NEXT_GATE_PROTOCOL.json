@@ -1,0 +1,17 @@
+{
+  "protocol_id":"SELFGRAPH-NEXT-GATE-AUTOCREATE-V0_1",
+  "version":"0.1.0",
+  "rule_id":"AUTO-BRANCH-NEXT-GATE-0001",
+  "trigger":"VERIFIED_PUSH_FOR_COMPLETED_GATE",
+  "required_evidence":["PUSH_RECEIPT_ID","REMOTE_COMMIT_ID","REMOTE_RECONTACT_ID","BYTE_MATCH_ID","GATE_COMPLETION_ID"],
+  "actions":[
+    {"action_id":"ACTION-0001","action":"CREATE_SELFGRAPH_BRANCH","branch_id_format":"SELFGRAPH-BRANCH-{SEQUENCE}"},
+    {"action_id":"ACTION-0002","action":"CREATE_NEXT_GATE_PULL","pull_id_format":"PULL-{SEQUENCE}"},
+    {"action_id":"ACTION-0003","action":"ADDRESS_RECEIVER","receiver_id_format":"RECEIVER-{SEQUENCE}"},
+    {"action_id":"ACTION-0004","action":"EMIT_PULL_TO_TARGET_GPTSELF","signal_id_format":"SIGNAL-{SEQUENCE}"}
+  ],
+  "causal_rule":"A verified push realizes one gate; realization creates the next SELFGRAPH branch and its pull input.",
+  "no_skipping":true,
+  "no_implicit_admission":true,
+  "all_objects_require_ids":true
+}
