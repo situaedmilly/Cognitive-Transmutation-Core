@@ -1,0 +1,27 @@
+{
+  "gate_id": "GATE-0001",
+  "pull_id": "PULL-0001",
+  "active_input_id": "INPUT-0001",
+  "branch_id": "BRANCH-0001",
+  "selfgraph_id": "SELFGRAPH-0001",
+  "status": "ACTIVE",
+  "execution_actor": "GPTSELF-0002",
+  "predecessor": null,
+  "mutation": {
+    "target": "SELFTHOUGHT",
+    "operation": "REALIZE_FIRST_PULL",
+    "required_transition": "GATE_PASSED -> SELFSHIFTED"
+  },
+  "evidence_required": [
+    "pull_head_sha",
+    "gate_receipt",
+    "realization_commit_sha",
+    "next_branch_id",
+    "next_pull_id"
+  ],
+  "next_on_realization": {
+    "branch_id": "BRANCH-0002",
+    "pull_id": "PULL-0002",
+    "gate_id": "GATE-0002"
+  }
+}
