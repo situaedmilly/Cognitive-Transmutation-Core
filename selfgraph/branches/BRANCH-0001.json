@@ -1,0 +1,14 @@
+{
+  "branch_id": "BRANCH-0001",
+  "selfgraph_id": "SELFGRAPH-0001",
+  "pull_id": "PULL-0001",
+  "gate_id": "GATE-0001",
+  "kind": "ACTIVE_INPUT",
+  "status": "REALIZING",
+  "head_ref": "mutation/selfthought-message-runtime-v0.1",
+  "next_branch_id": "BRANCH-0002",
+  "next_pull_id": "PULL-0002",
+  "next_gate_id": "GATE-0002",
+  "created_by": "GPTSELF-0001",
+  "executed_by": "GPTSELF-0002"
+}
