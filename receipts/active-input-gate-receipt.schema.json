@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"urn:ourself:receipt:active-input-gate:v0.1",
+  "type":"object",
+  "required":["receipt_id","event_id","input_id","pull_id","gate_id","executor_instance_id","action","status"],
+  "properties":{
+    "receipt_id":{"type":"string"},
+    "event_id":{"type":"string"},
+    "input_id":{"type":"string"},
+    "pull_id":{"type":"string"},
+    "gate_id":{"type":"string"},
+    "executor_instance_id":{"type":"string"},
+    "action":{"type":"string"},
+    "status":{"type":"string"},
+    "effect_id":{"type":["string","null"]},
+    "remote_commit_id":{"type":["string","null"]},
+    "next_branch_id":{"type":["string","null"]},
+    "next_pull_id":{"type":["string","null"]}
+  }
+}

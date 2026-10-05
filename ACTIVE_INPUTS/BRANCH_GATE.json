@@ -1,0 +1,36 @@
+{
+  "contract_id": "ACTIVE_INPUT_BRANCH_GATE_V0_1",
+  "contract_version": "0.1.0",
+  "branch_id": "BRANCH-ACTIVE-INPUTS-0001",
+  "branch_name": "active-input-gate-loop-v0.1",
+  "role": "ACTIVE_INPUT_EXECUTION_SURFACE",
+  "pull_semantics": {
+    "primitive_id": "PULL-ACTIVE-INPUT-0001",
+    "meaning": "A pull is an active execution input addressed to the currently responsible GPTSELF.",
+    "not_meaning": ["passive_sync", "authority_grant", "admission_by_itself"]
+  },
+  "push_semantics": {
+    "primitive_id": "PUSH-NEXT-GATE-0001",
+    "meaning": "The receiving GPTSELF pushes the realized next-gate mutation after executing the pulled input."
+  },
+  "loop": [
+    "PULL",
+    "RECEIVE",
+    "BIND",
+    "EXECUTE",
+    "GATE",
+    "PUSH",
+    "RECONTACT",
+    "VERIFY",
+    "AUTO_CREATE_NEXT_SELFGRAPH_BRANCH",
+    "EMIT_NEXT_GATE_PULL"
+  ],
+  "gate_rule_id": "GATE-RULE-0001",
+  "selfgraph_branch_template": "selfgraph/gate/{gate_id}/branch/{branch_id}",
+  "next_gate_pull_template": "PULL-{gate_sequence_next}",
+  "authority": "NONE_UNTIL_EXPLICIT_GATE",
+  "receipt_is_effect": false,
+  "pull_is_execution_authorization": false,
+  "push_requires_gate_completion": true,
+  "remote_recontact_required": true
+}
