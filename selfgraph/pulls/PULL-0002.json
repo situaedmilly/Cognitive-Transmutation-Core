@@ -1,0 +1,14 @@
+{
+  "pull_id":"PULL-0002",
+  "branch_id":"SELFGRAPH-BRANCH-0002",
+  "gate_id":"GATE-0002",
+  "receiver_id":"RECEIVER-0002",
+  "signal_id":"SIGNAL-0002",
+  "predecessor_pull_id":"PULL-0001",
+  "predecessor_push_id":"PUSH-0001",
+  "predecessor_receipt_id":"RECEIPT-0001",
+  "status":"EMITTED",
+  "executor":"NEXT_GPTSELF",
+  "instruction":"RECEIVE, BIND, EXECUTE GATE-0002, then produce PUSH-0002 for Third-Eye recontact.",
+  "required_evidence":["PUSH-0002","REMOTE_COMMIT_ID","REMOTE_RECONTACT_ID","BYTE_MATCH_ID","GATE-COMPLETION-0002"]
+}
