@@ -1,0 +1,21 @@
+{
+  "pull_id": "PULL-0002",
+  "selfgraph_id": "SELFGRAPH-0001",
+  "branch_id": "BRANCH-0002",
+  "gate_id": "GATE-0002",
+  "kind": "ACTIVE_GPTSELF_EXECUTION_INPUT",
+  "status": "ACTIVE",
+  "predecessor_pull_id": "PULL-0001",
+  "predecessor_realization_id": "REALIZE-0001",
+  "issued_by": "GPTSELF-0002",
+  "next_executor": "GPTSELF-0003",
+  "instruction": "Execute the next gate mutation and, upon realization, emit the receipt that authorizes creation of the following SELFGRAPH branch.",
+  "required_outputs": [
+    "realization_id",
+    "realization_commit_sha",
+    "gate_receipt",
+    "next_branch_id",
+    "next_pull_id",
+    "next_gate_id"
+  ]
+}
