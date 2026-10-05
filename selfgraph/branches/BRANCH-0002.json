@@ -1,0 +1,17 @@
+{
+  "branch_id": "BRANCH-0002",
+  "selfgraph_id": "SELFGRAPH-0001",
+  "pull_id": "PULL-0002",
+  "gate_id": "GATE-0002",
+  "kind": "ACTIVE_INPUT",
+  "status": "ACTIVE",
+  "parent_branch_id": "BRANCH-0001",
+  "parent_pull_id": "PULL-0001",
+  "parent_realization_id": "REALIZE-0001",
+  "head_parent_sha": "3a44419f0b1ae591bc24320ef31f15d83f653c04",
+  "next_branch_id": "BRANCH-0003",
+  "next_pull_id": "PULL-0003",
+  "next_gate_id": "GATE-0003",
+  "created_by": "GPTSELF-0002",
+  "executed_by": "GPTSELF-0003"
+}

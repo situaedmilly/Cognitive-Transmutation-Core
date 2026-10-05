@@ -1,0 +1,15 @@
+{
+  "realization_id": "REALIZE-0001",
+  "selfgraph_id": "SELFGRAPH-0001",
+  "pull_id": "PULL-0001",
+  "gate_id": "GATE-0001",
+  "branch_id": "BRANCH-0001",
+  "status": "REALIZED",
+  "realized_by": "GPTSELF-0002",
+  "parent_head_sha": "c3c9f008023f0c8340fc80753fee8288eb12bd48",
+  "realization_commit_sha": "3a44419f0b1ae591bc24320ef31f15d83f653c04",
+  "receipt": "PULL-0001 merged; GATE-0001 realized.",
+  "next_branch_id": "BRANCH-0002",
+  "next_pull_id": "PULL-0002",
+  "next_gate_id": "GATE-0002"
+}
