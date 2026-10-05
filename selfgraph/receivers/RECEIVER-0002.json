@@ -1,0 +1,7 @@
+{
+  "receiver_id":"RECEIVER-0002",
+  "target_instance_id":"NEXT_GPTSELF_INSTANCE",
+  "target_role":"NEXT_GPTSELF",
+  "source_pull_id":"PULL-0002",
+  "status":"ADDRESSED"
+}

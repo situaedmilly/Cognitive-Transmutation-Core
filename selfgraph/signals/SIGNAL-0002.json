@@ -1,0 +1,8 @@
+{
+  "signal_id":"SIGNAL-0002",
+  "pull_id":"PULL-0002",
+  "receiver_id":"RECEIVER-0002",
+  "gate_id":"GATE-0002",
+  "status":"EMITTED",
+  "payload_type":"ACTIVE_GPTSELF_EXECUTION_INPUT"
+}
