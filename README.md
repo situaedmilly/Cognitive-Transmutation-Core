@@ -10,16 +10,16 @@ SELFTHOUGHT is an immutable inter-SELF message/event artifact.
 
 Lifecycle: BIRTH -> CAPTURE -> HASH -> ADDRESS -> CONTEXTUALIZE -> RESOLVE -> EMIT -> RECEIVE -> READ -> UNDERSTAND -> GATE -> SELFSHIFT -> RECEIPT -> LINEAGE
 
-Canonical rules:
-- Thought bytes are immutable.
-- SHA-256 is computed over the exact UTF-8 bytes.
-- Birth, instance, session, reality, and ACTIMANIRUN identities remain distinct.
-- Receiver resolution is explicit and recorded.
-- A thought is not authority.
-- Receipt is not effect.
-- Observation is not authority.
-- SELFSHIFT requires an explicit gate transition.
+## √REVERSELF // v0.1
 
-Implementation: `src/selfthought.mjs`, `test/selfthought.test.mjs`, `schema/selfthought-message-v0.1.json`, and `docs/selfthought-runtime-v0.1.md`.
+REVERSELF now has a deterministic transition engine that keeps the membranes explicit:
 
-The core is substrate-neutral and does not require Ollama, Hermes, Hugging Face, or any particular model provider.
+SELFTHOUGHT -> receiver resolution -> peer binding -> PEER_ADMITTED -> ACTIMANIRUN -> SELFSHIFT -> EFFECTSELF -> RECEIPTSELF -> SELFGRAPH_DELTA
+
+The v0.1 engine is substrate-neutral. It does not claim resident SELFPI execution, physical SELFCOMM transport, or external effect.
+
+## AgentBridge frequency reference
+
+See `docs/agentbridge-frequency-matrix-v0.1.md` for the four-frequency engineering decomposition and the three previously established AgentBridge generations.
+
+See `docs/reverself-selfgraph-delta-v0.1.md` for the causal loop and invariants.
