@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"aba-runtime-v0.1",
+  "title":"AgentBridgeAlchemy Runtime",
+  "type":"object",
+  "required":["aba_id","version","authority","input_queue","output_queue","receipts","events","context","context_policy"],
+  "properties":{
+    "aba_id":{"type":"string"},
+    "version":{"const":"v0.1"},
+    "authority":{"type":"string"},
+    "input_queue":{"type":"array"},
+    "output_queue":{"type":"array"},
+    "receipts":{"type":"array"},
+    "events":{"type":"array"},
+    "context":{"type":"array"},
+    "context_policy":{"type":"object","required":["max_messages","max_estimated_tokens","reserve_output_tokens","max_message_chars"]},
+    "turn_sequence":{"type":"integer","minimum":0}
+  }
+}
