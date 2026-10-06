@@ -1,0 +1,112 @@
+{
+  "schema": "AETHERNET-TRANSITION-CONTRACT-v0.1",
+  "reality_id": "ALCHEMYSELFTELLIGENCE",
+  "primitive": "AETHERRECEIVER",
+  "transition_id": null,
+  "source": {
+    "peer_id": null,
+    "instance_id": null,
+    "transport": null
+  },
+  "network_ingress": {
+    "transport": null,
+    "listener": null,
+    "foreign_surface": true
+  },
+  "preimage": {
+    "encoding": "UTF-8",
+    "sha256": null,
+    "bytes_observed": false,
+    "parse_status": "UNRESOLVED"
+  },
+  "candidate": {
+    "type": null,
+    "operation": null,
+    "target": null,
+    "arguments": null
+  },
+  "identity": {
+    "source_identified": false,
+    "instance_identified": false
+  },
+  "authority": {
+    "authority_ref": null,
+    "authorized": false
+  },
+  "jurisdiction": {
+    "realm": null,
+    "surface": null,
+    "bounded": false
+  },
+  "capability": {
+    "requested": [],
+    "mapped": [],
+    "admitted": []
+  },
+  "admission": {
+    "valid": false,
+    "authorized": false,
+    "action_id_match": false,
+    "admitted": false,
+    "admission_id": null
+  },
+  "execution": {
+    "requested": false,
+    "dispatched": false,
+    "effect_observed": false
+  },
+  "receipt": {
+    "status": "NOT_CREATED",
+    "observation": null,
+    "evidence": [],
+    "sha256": null
+  },
+  "next_instance": {
+    "instance_id": null,
+    "derived_from_receipt": false
+  },
+  "descriptors": {
+    "aether_in": {
+      "layer": "MEMBRANE",
+      "writable_by": "AETHERRECEIVER",
+      "foreign_write_authority": false
+    },
+    "aether_out": {
+      "layer": "ADMITTED_ACTUATION",
+      "writable_by": "MEMBRANE_ONLY",
+      "foreign_write_authority": false,
+      "closed_to_foreign_input": true
+    }
+  },
+  "invariants": [
+    "FOREIGN_BYTES != PARSED_PREIMAGE",
+    "PARSED_PREIMAGE != ADMITTED_TRANSITION",
+    "ADMITTED_TRANSITION != ACTUATION",
+    "ACTUATION != OBSERVED_EFFECT",
+    "OBSERVED_EFFECT != DURABLE_RECEIPT",
+    "NETWORK_REACHABILITY != ADMISSION",
+    "ADMISSION != AUTHORIZATION",
+    "AUTHORIZATION != ACTUATION",
+    "ACTUATION != EFFECT",
+    "stdout != success",
+    "stderr != failure"
+  ],
+  "omissions": [
+    "shell_command",
+    "arbitrary_exec",
+    "spawn_pid",
+    "credential_material",
+    "raw_secret",
+    "implicit_authority"
+  ],
+  "resident_execution": {
+    "required": true,
+    "foreign_input_may_spawn_arbitrary_execution": false,
+    "actuator_identity": "RESIDENT_AETHERNET_DAEMON"
+  },
+  "observation_streams": {
+    "stdout": "EFFECT_OUTPUT_OBSERVATION",
+    "stderr": "DIAGNOSTIC_VALIDATION_FAILURE_OBSERVATION",
+    "conflation_allowed": false
+  }
+}
