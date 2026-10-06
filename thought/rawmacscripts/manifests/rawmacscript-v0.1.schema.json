@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ourself.local/schemas/rawmacscript-v0.1.json",
+  "title": "OURSELF RAWMACSCRIPT v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scriptId",
+    "realityId",
+    "target",
+    "encoding",
+    "byteContract",
+    "execution"
+  ],
+  "properties": {
+    "scriptId": {
+      "type": "string",
+      "pattern": "^RAWMACSCRIPT-[A-Z0-9_-]+$"
+    },
+    "realityId": {
+      "const": "REVERSELF_COGNITIVE_TRANSMUTATION"
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["substrate", "host"],
+      "properties": {
+        "substrate": {"const": "RAWMAC"},
+        "host": {"type": "string"}
+      }
+    },
+    "encoding": {
+      "const": "UTF-8"
+    },
+    "byteContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical", "lineEnding", "mutationAllowed"],
+      "properties": {
+        "canonical": {"const": "EXACT_FILE_BYTES"},
+        "lineEnding": {"enum": ["LF", "CRLF"]},
+        "mutationAllowed": {"const": false}
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["workingDirectory", "preconditions", "scriptPath"],
+      "properties": {
+        "workingDirectory": {"type": "string"},
+        "preconditions": {"type": "array", "items": {"type": "string"}},
+        "scriptPath": {"type": "string"}
+      }
+    }
+  }
+}
