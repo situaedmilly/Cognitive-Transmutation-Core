@@ -1,0 +1,32 @@
+{
+  "schema": "REVERSELF-COGNITION-BINDING-v0.1",
+  "reality_id": "REVERSELF_COGNITIVE_TRANSMUTATION",
+  "authority": "OURSELF",
+  "status": "BOUND_BY_DECLARATION",
+  "execution": {
+    "endpoint": "http://192.168.12.112:11434/v1",
+    "provider": "OLLAMA",
+    "models_path": "/models",
+    "inference_path": "/chat/completions",
+    "mcp_path": "/mcp",
+    "mcp_status": "404"
+  },
+  "model": {
+    "model_ref": "ourself-qwen38-27b-iq2s-80k:latest",
+    "context_window": 80000,
+    "cloud_models_allowed": false
+  },
+  "selshift": {
+    "required_gate": "SELFSHIFT",
+    "thought_runtime": "src/selfthought.mjs",
+    "authority_rule": "cognition output is matter for SELFSHIFT; output is not authority",
+    "receipt_rule": "receipt is not effect"
+  },
+  "provenance": {
+    "address_realm": "situaedmilly/SELFVEREIGN-ADDRESSELF",
+    "execution_realm": "situaedmilly/FLOWACTIONSELFWORK",
+    "cognition_realm": "situaedmilly/Cognitive-Transmutation-Core"
+  },
+  "execution_status": "NOT_RUN_FROM_GITHUB",
+  "execution_boundary": "The private LAN endpoint must be exercised from the local OURSELF substrate; this commit establishes the executable binding but is not evidence of a live inference."
+}
