@@ -1,0 +1,24 @@
+{
+  "scriptId": "RAWMACSCRIPT-001-PEEP-OURSELF-COGNITION-ENDPOINT",
+  "realityId": "REVERSELF_COGNITIVE_TRANSMUTATION",
+  "target": {
+    "substrate": "RAWMAC",
+    "host": "192.168.12.112"
+  },
+  "encoding": "UTF-8",
+  "byteContract": {
+    "canonical": "EXACT_FILE_BYTES",
+    "lineEnding": "LF",
+    "mutationAllowed": false
+  },
+  "execution": {
+    "workingDirectory": "/Users/millysituated/OURSELF",
+    "preconditions": [
+      "RawMac is on the network containing 192.168.12.112",
+      "Ollama is listening on TCP port 11434",
+      "curl is installed",
+      "jq is installed"
+    ],
+    "scriptPath": "scripts/001_peep_ourself_cognition_endpoint.sh"
+  }
+}
