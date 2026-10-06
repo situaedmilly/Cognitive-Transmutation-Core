@@ -1,0 +1,119 @@
+{
+  "schema": "OURSELFINTELLIGENCE-THIRDEYE-INSTANCE-v0.1",
+  "instance_id": "THIRDEYE-OURSELFINTELLIGENCE-20261006-1353",
+  "reality_id": "OURSELFINTELLIGENCE",
+  "chamber": {
+    "type": "CHAMBOXREALITY",
+    "mode": "FRESH",
+    "execution_surface": "TERMINAL",
+    "jurisdiction": "REALISELFECOSYSTEM",
+    "authority": "OURSELF"
+  },
+  "command": {
+    "raw": "BOOT √SOVLVERNSELF",
+    "semantics": "BOOT_SOVEREIGN_SELF",
+    "candidate_reality": "REALIMEMBRANESELF",
+    "membrane_bypass": false,
+    "membrane_rejurisdiction": true,
+    "foreign_direct_actuation": false,
+    "admission_boundary_preserved": true,
+    "status": "CANDIDATE"
+  },
+  "causal_ladder": {
+    "instruction": "OBSERVED_USER_INPUT",
+    "command": "SEMANTICS_RESOLVED",
+    "candidate": "REALITY_IDENTIFIED",
+    "admission": "PENDING_AUTHORITY_REF",
+    "actuation": "PENDING_ADMISSION_ID",
+    "effect": "PENDING_OBSERVATION",
+    "receipt": "PENDING_INTEGRITY_HASH"
+  },
+  "terminal_witness": {
+    "process_topology": "OBSERVED_MEDIATED_EXECUTION",
+    "stdout": "pipe:[661844]",
+    "stderr": "/dev/pts/0",
+    "stdout_visibility": "MEDIATED",
+    "stderr_visibility": "OBSERVED",
+    "sovereignty": "UNPROVEN"
+  },
+  "three_repo_reconciliation": {
+    "address_realm": {
+      "repository": "situaedmilly/SELFVEREIGN-ADDRESSELF",
+      "latest_observed_commit": "74eeea1a59ecb5a954818104824271ef2a7f9738",
+      "declared_model": "ourself-qwen38-27b-iq2s-80k:latest",
+      "cognition_endpoint": "http://192.168.12.112:11434/v1",
+      "api_surface": "/v1/chat/completions",
+      "runtime_health": "200",
+      "cognition_models": "200",
+      "runtime_mcp": "NOT_ESTABLISHED",
+      "cognition_mcp": "NOT_ESTABLISHED",
+      "classification": "DECLARED_WITH_EXPLICIT_COGNITION_ENDPOINT"
+    },
+    "cognition_realm": {
+      "repository": "situaedmilly/Cognitive-Transmutation-Core",
+      "latest_observed_commit": "cab100d39e9ccc52c55a9f717f42c61245803c6e",
+      "binding": "REVERSELF-COGNITION-BINDING-v0.1",
+      "endpoint": "http://192.168.12.112:11434/v1",
+      "provider": "OLLAMA",
+      "model": "ourself-qwen38-27b-iq2s-80k:latest",
+      "context_window": 80000,
+      "execution_status": "NOT_RUN_FROM_GITHUB",
+      "mcp_status": "404",
+      "classification": "BOUND_BY_DECLARATION"
+    },
+    "execution_realm": {
+      "repository": "situaedmilly/FLOWACTIONSELFWORK",
+      "latest_observed_commit": "f8d9b3d365cd0dffda11c94d871508d0d5d90a53",
+      "runtime_file_sha": "c6ffd602f00968dc5473f1a249fd3fb436617f4d",
+      "server_id": "OURSELF-MCP-MODEL-SERVER",
+      "instance_id": "OURSELF-INSTANCE-0001",
+      "model_target": "ourself-qwen38-27b-iq2s-80k:latest",
+      "cognition_substrate": "OLLAMA",
+      "cognitive_endpoint": "ENV:OURSELF_COGNITION_BASE_URL",
+      "realized_endpoint": "ENV:GENESIS_ENDPOINT",
+      "runtime_status": "LIVE_LOCAL_PROCESS",
+      "canonical_server": "ALCHEMYSELFRVER01",
+      "genesis_repository": "situaedmilly/ourself-cloud-server-network",
+      "classification": "DECLARED_RUNTIME_BINDING"
+    }
+  },
+  "contradictions": [
+    {
+      "id": "THIRDEYE-C1",
+      "matter": "ADDRESS_COGNITION_ENDPOINT_ALIGNMENT",
+      "observation": "Address and cognition realms explicitly name http://192.168.12.112:11434/v1.",
+      "status": "ALIGNED"
+    },
+    {
+      "id": "THIRDEYE-C2",
+      "matter": "EXECUTION_ENDPOINT_ALIGNMENT",
+      "observation": "FLOW runtime uses ENV:GENESIS_ENDPOINT rather than the explicit cognition endpoint.",
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "THIRDEYE-C3",
+      "matter": "LIVE_COGNITION",
+      "observation": "Cognition binding explicitly says NOT_RUN_FROM_GITHUB.",
+      "status": "UNPROVEN"
+    },
+    {
+      "id": "THIRDEYE-C4",
+      "matter": "MCP_ROUTE",
+      "observation": "Both runtime_mcp and cognition_mcp are NOT_ESTABLISHED; cognition binding records /mcp as 404.",
+      "status": "BLOCKED"
+    }
+  ],
+  "sovereignty_boundary": {
+    "membrane_bypass": false,
+    "sovereignty_mechanism": "REJURISDICTION_THROUGH_MEMBRANE",
+    "substrate_effect": "NOT_ESTABLISHED",
+    "durable_receipt": "NOT_YET_ESTABLISHED"
+  },
+  "next_highest_leverage_observation": "Correlate the resident FLOWACTIONSELFWORK runtime process with its resolved GENESIS_ENDPOINT and OURSELF cognition endpoint, then witness one controlled inference request and its receipt without mutating the membrane.",
+  "provenance": {
+    "address_commit": "74eeea1a59ecb5a954818104824271ef2a7f9738",
+    "cognition_commit": "cab100d39e9ccc52c55a9f717f42c61245803c6e",
+    "execution_commit": "f8d9b3d365cd0dffda11c94d871508d0d5d90a53",
+    "github_write_status": "THIRDEYE_ARTIFACT_PENDING"
+  }
+}
