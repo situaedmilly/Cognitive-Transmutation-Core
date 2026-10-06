@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-06T17:47:20.037Z",
+  "preimage_digest": "26499eac6e644b116affe6cadeca36d71fea7996c9467c0ebf46e80c91c9051c",
+  "admission_id": "fa3dbcf9-bcd3-472e-815f-5a024608ed89",
+  "actuation_id": "12257e12-1691-4bdc-a171-4bf8070f8a11",
+  "effect_status": "VERIFIED",
+  "witness": "Substrate state mutated via payload: ACTIVATE_Sovereign_Estate",
+  "integrity_hash": "e063930b5686e428c787ced60cce6fb63543ee4d4064fc732311a2dd367414da"
+}
