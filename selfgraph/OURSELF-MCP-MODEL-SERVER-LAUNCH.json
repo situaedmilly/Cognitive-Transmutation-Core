@@ -1,0 +1,16 @@
+{
+  "launch_id": "OURSELF-MCP-MODEL-LAUNCH-0001",
+  "graph_node": "OURSELF-MCP-MODEL-SERVER",
+  "instance_id": "OURSELF-INSTANCE-0001",
+  "server_id": "OURSELF-SERVER-0001",
+  "address": {"repo":"situaedmilly/SELFVEREIGN-ADDRESSELF","artifact":"selfgraph/OURSELF-MCP-MODEL-SERVER-ADDRESS.json","role":"ADDRESS_AND_SIGNALING"},
+  "execution": {"repo":"situaedmilly/FLOWACTIONSELFWORK","artifact":"runtime/OURSELF-MCP-MODEL-SERVER-LAUNCH.json","role":"EXECUTION_NODE"},
+  "cognition": {"repo":"situaedmilly/Cognitive-Transmutation-Core","role":"IMMUTABLE_SELFTHOUGHT_COGNITIVE_KERNEL"},
+  "network": {"repo":"situaedmilly/ourself-cloud-server-network","artifact":"instances/OURSELF-INSTANCE-0001/endpoint.json","role":"CONTINUITY_AND_RUNTIME_COORDINATION"},
+  "core": {"repo":"situaedmilly/ourself-core","artifact":"runtime/endpoint.json","role":"OURSELF_INSTANCE_SURFACE"},
+  "causal_sequence":["DECLARE","ADDRESS","ADMIT_LAUNCH","EXECUTE","LISTEN","MCP_INITIALIZE","RESOLVE_LOCAL_MODEL","INFER","ROUNDTRIP","RECORD","THIRD_EYE_RECONTACT","BYTE_MATCH","LIVE"],
+  "model_boundary":{"server_is_authority":true,"ollama_is_authority":false,"ollama_role":"COGNITION_SUBSTRATE","requested_profile":"QWEN_27B_80K_LOCAL","cloud_model_allowed":false},
+  "current_status":"LAUNCH_DECLARED_NOT_EXECUTED",
+  "execution_receipt":null,
+  "live_proof":null
+}
