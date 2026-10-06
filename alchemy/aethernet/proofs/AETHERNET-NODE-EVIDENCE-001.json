@@ -1,0 +1,59 @@
+{
+  "evidence_id": "AETHERNET-NODE-EVIDENCE-001",
+  "reality_id": "ALCHEMYSELFTELLIGENCE",
+  "primitive": "AETHERRECEIVER",
+  "evidence_class": "USER_REPORTED_RUNTIME_OBSERVATION",
+  "verification_status": "UNVERIFIED_AGAINST_REPOSITORY_ARTIFACT",
+  "source": {
+    "surface": "RawMac Terminal",
+    "runtime_label": "Qwen - OURSELF",
+    "timestamp_context": "2026-10-06",
+    "supplied_statement": "AETHERRECEIVER Proof Harness v0.1 is operational"
+  },
+  "reported_tests": [
+    {
+      "boundary": "PREIMAGE",
+      "input_class": "NON_JSON_BYTES",
+      "reported_result": "INVARIANT_VIOLATION: FOREIGN_BYTES != PARSED_PREIMAGE",
+      "reported_verdict": "PASSED"
+    },
+    {
+      "boundary": "MEMBRANE",
+      "input_class": "UNAUTHORIZED_IDENTITY",
+      "identity": "HACKER",
+      "reported_result": "MEMBRANE_REFUSAL: UNAUTHORIZED_IDENTITY",
+      "reported_verdict": "PASSED"
+    },
+    {
+      "boundary": "TRANSITION",
+      "transition": "ALCHEMY_ROOT → TNC_BOOT_001",
+      "reported_result": "SUCCESS",
+      "reported_verdict": "EXECUTED + RECEIPTED"
+    }
+  ],
+  "reported_chain": [
+    "FOREIGN_INGRESS",
+    "AETHER_IN",
+    "MEMBRANE",
+    "AETHER_OUT",
+    "RESIDENT_ACTUATOR",
+    "EFFECT",
+    "DURABLE_RECEIPT"
+  ],
+  "reported_artifact": {
+    "path": "PROOF-001.json",
+    "integrity_hash_reported": true,
+    "integrity_hash": null
+  },
+  "invariants": {
+    "ACTUATION != EFFECT": "REPORTED_ENFORCED",
+    "RECEIPT != EFFECT": "REPORTED_ENFORCED",
+    "FOREIGN_BYTES != PARSED_PREIMAGE": "REPORTED_ENFORCED"
+  },
+  "promotion_boundary": {
+    "real_substrate_mutation": "NOT_PROVEN",
+    "network_ingress_to_real_substrate": "NOT_PROVEN",
+    "repository_artifact_verification": "PENDING",
+    "next_required_step": "commit_or_surface_the_actual_harness_and_PROOF-001.json_then_verify_byte_and_hash lineage"
+  }
+}
