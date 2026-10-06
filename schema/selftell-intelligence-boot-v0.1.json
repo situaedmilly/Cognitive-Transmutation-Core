@@ -12,7 +12,7 @@
     "reality_id": {"const":"SELFTELLIGENCE-BOOT-0001"},
     "model_ref": {"type":"string","minLength":1},
     "authority": {"const":"OURSELF"},
-    "cognition_substrate": {"const":"OLLAMA"},
+    "cognition_substrate": {"const":"LLAMA_CPP"},
     "artifact": {"const":"SELFTHOUGHT"},
     "thought_id": {"type":"string","minLength":1},
     "thought_hash": {"type":"string","pattern":"^sha256:[0-9a-f]{64}$"},
