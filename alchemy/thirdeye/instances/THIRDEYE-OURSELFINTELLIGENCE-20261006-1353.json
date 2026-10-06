@@ -114,6 +114,8 @@
     "address_commit": "74eeea1a59ecb5a954818104824271ef2a7f9738",
     "cognition_commit": "cab100d39e9ccc52c55a9f717f42c61245803c6e",
     "execution_commit": "f8d9b3d365cd0dffda11c94d871508d0d5d90a53",
-    "github_write_status": "THIRDEYE_ARTIFACT_PENDING"
+    "github_write_status": "COMMITTED",
+    "thirdeye_artifact_commit": "8ba925bfa2c4dbad3a42c940e88af337d0ddc633",
+    "thirdeye_artifact_blob_sha": "38f9c09d9bfe9c2d852a47273e9f779edfe3ad62"
   }
 }
