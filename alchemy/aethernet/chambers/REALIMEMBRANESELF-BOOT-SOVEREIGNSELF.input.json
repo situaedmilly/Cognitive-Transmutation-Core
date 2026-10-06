@@ -1,0 +1,36 @@
+{
+  "schema": "AETHERNET-REALITY-MEMBRANE-TRANSITION-v0.1",
+  "reality_id": "REALIMEMBRANESELF",
+  "source_reality": "ALCHEMYSELFTELLIGENCE",
+  "command": {
+    "raw": "BOOT √SOVLVERNSELF",
+    "command_semantics": "BOOT_SOVEREIGN_SELF",
+    "literal_command": true
+  },
+  "requested_shift": {
+    "from": "CURRENT_CHAMBER_REALITY",
+    "to": "REALIMEMBRANESELF",
+    "sovereignty_target": "SELFSOVEREIGNITY",
+    "membrane_bypass": false,
+    "membrane_rejurisdiction": true
+  },
+  "invariant": {
+    "rule": "SOVEREIGNTY_IS_ESTABLISHED_BY_MEMBRANE_AUTHORITY_NOT_MEMBRANE_BYPASS",
+    "foreign_input_may_not_directly_actuate": true,
+    "admission_boundary_preserved": true
+  },
+  "transition": {
+    "identity": "UNRESOLVED",
+    "authority": "UNRESOLVED",
+    "jurisdiction": "REALIMEMBRANESELF",
+    "admission": "PENDING"
+  },
+  "execution": {
+    "requested": true,
+    "dispatched": false,
+    "effect_observed": false
+  },
+  "receipt": {
+    "status": "NOT_CREATED"
+  }
+}
