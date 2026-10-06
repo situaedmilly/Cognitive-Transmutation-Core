@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SELFTELLIGENCE Boot v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["intelligence_id","instance_id","session_id","actimanirun_id","reality_id","model_ref","authority","cognition_substrate","artifact","thought_id","thought_hash","receipt_id","status"],
+  "properties": {
+    "intelligence_id": {"type":"string","minLength":1},
+    "instance_id": {"type":"string","minLength":1},
+    "session_id": {"type":"string","minLength":1},
+    "actimanirun_id": {"type":"string","minLength":1},
+    "reality_id": {"const":"SELFTELLIGENCE-BOOT-0001"},
+    "model_ref": {"type":"string","minLength":1},
+    "authority": {"const":"OURSELF"},
+    "cognition_substrate": {"const":"OLLAMA"},
+    "artifact": {"const":"SELFTHOUGHT"},
+    "thought_id": {"type":"string","minLength":1},
+    "thought_hash": {"type":"string","pattern":"^sha256:[0-9a-f]{64}$"},
+    "receipt_id": {"type":"string","minLength":1},
+    "status": {"const":"RECORDED"}
+  }
+}
