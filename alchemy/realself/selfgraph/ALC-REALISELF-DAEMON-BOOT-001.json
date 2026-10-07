@@ -1,0 +1,21 @@
+{
+  "transition_id": "ALC-REALISELF-DAEMON-BOOT-001",
+  "runtime_identity": "ALCHEMYGENESISDAEMON",
+  "status": "REALISELF_RESIDENT_BOOTED",
+  "pid": 64097,
+  "model_identity": "ALCHEMYGENESISMODEL",
+  "observed_target": "Qwen3.8-27B-GSQ-RCO-IQ2_S.gguf",
+  "target_alias": "ourself-qwen38-27b-iq2s-80k:latest",
+  "swap": {
+    "from": "qwen2.5-coder:latest",
+    "to": "Qwen3.8-27B-GSQ-RCO-IQ2_S.gguf",
+    "scope": "ALCHEMYGENESISMODEL reality-instance observation",
+    "status": "TARGET_DECLARED_NOT_PRESENT"
+  },
+  "artifact_present": false,
+  "admission": "NOT_GRANTED",
+  "cognition": "NOT_STARTED",
+  "substrate_binding": "NOT_STARTED",
+  "witness": "NOT_STARTED",
+  "receipt": "IDENTITY_BOOT_RECEIPT_ONLY"
+}
