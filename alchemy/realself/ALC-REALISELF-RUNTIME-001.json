@@ -1,0 +1,109 @@
+{
+  "pointer_id": "ALC-REALISELF-RUNTIME-001",
+  "schema_version": "0.1.0",
+  "status": "PLANNED_MUTATION_SCOPE",
+  "purpose": "Bind the cognition runtime to OURSELF/ALCHEMY reality governance before any runtime or repository mutation.",
+  "runtime_identity": {
+    "name": "ALCHEMYGENESISDAEMON",
+    "role": "REALISELF_COGNITION_RESIDENT",
+    "authority": "OURSELF",
+    "model_identity": "ALCHEMYGENESISMODEL",
+    "target_model": "Qwen3.8-27B-GSQ-RCO-IQ2_S",
+    "target_alias": "ourself-qwen38-27b-iq2s-80k:latest"
+  },
+  "substrate_policy": {
+    "ollama": "SUBSTRATE_ADAPTER_ONLY",
+    "generic_ollama_daemon_identity": "REJECTED",
+    "authority_source": "OURSELF_RUNTIME",
+    "admission_source": "OURSELF_MEMBRANE",
+    "effect_witness": "MODELSELF_WITNESS",
+    "receipt_custody": "ALCHEMY_RUNTIME"
+  },
+  "local_realities": [
+    {
+      "reality_id": "CHAMBOXREALITY-2051",
+      "path": "/Users/millysituated/OURSELF/realities/LLAMA3-CHAMBOXREALITY",
+      "mutation_role": "REALITY_CONTROL_AND_EVIDENCE"
+    },
+    {
+      "reality_id": "OURTEXTNOWSELF",
+      "path": "/Users/millysituated/OURSELF/runtime/ourtextnow",
+      "mutation_role": "RESIDENT_RUNTIME_AND_ALCHEMY_GRAPH"
+    },
+    {
+      "reality_id": "OLLAMA_COGNITIVE_SUBSTRATE",
+      "path": "/Users/millysituated/OURSELF/runtime/ollama",
+      "mutation_role": "SUBSTRATE_ADAPTER_CONFIGURATION"
+    },
+    {
+      "reality_id": "REVERSELF_COGNITION",
+      "path": "/Users/millysituated/OURSELF/runtime/reality",
+      "mutation_role": "MODEL_REGISTRY_AND_WITNESSING"
+    },
+    {
+      "reality_id": "SAFESELFMUTATIONS",
+      "path": "/Users/millysituated/OURSELF/runtime/safeselfmutations",
+      "mutation_role": "BOUNDED_MUTATION_POLICY"
+    }
+  ],
+  "github_repositories": [
+    {
+      "repository": "situaedmilly/Cognitive-Transmutation-Core",
+      "branch": "alchemy/realself-runtime-v0.1",
+      "mutation_role": "PRIMARY_ALCHEMY_CUSTODY"
+    },
+    {
+      "repository": "situaedmilly/FLOWACTIONSELFWORK",
+      "branch": "main",
+      "mutation_role": "COGNITION_ENDPOINT_RUNTIME",
+      "mutation_status": "PLANNED"
+    },
+    {
+      "repository": "situaedmilly/SELFVEREIGN-ADDRESSELF",
+      "branch": "main",
+      "mutation_role": "ADDRESS_AND_ENDPOINT_TOPOLOGY",
+      "mutation_status": "PLANNED"
+    },
+    {
+      "repository": "situaedmilly/ourself-agent-bridge-kernel",
+      "branch": "main",
+      "mutation_role": "AGENT_BRIDGE_AND_EXECUTION_BOUNDARY",
+      "mutation_status": "PLANNED"
+    },
+    {
+      "repository": "situaedmilly/self-communication",
+      "branch": "main",
+      "mutation_role": "COMMUNICATION_AND_RECONTACT",
+      "mutation_status": "PLANNED"
+    },
+    {
+      "repository": "situaedmilly/ourself-core",
+      "branch": "main",
+      "mutation_role": "CORE_REGISTRY_AND_PROOF_LEDGER",
+      "mutation_status": "PLANNED"
+    }
+  ],
+  "mutation_laws": [
+    "NO_OVERWRITE_OF_UNRELATED_WORKING_STATE",
+    "NO_GENERIC_DAEMON_AS_AUTHORITY",
+    "OLLAMA_MUST_REMAIN_SUBORDINATE_TO_ALCHEMY_RUNTIME",
+    "EVERY_MUTATION_HAS_EXPLICIT_REPOSITORY_AND_REALITY_POINTER",
+    "EVERY_ACTUATION_REQUIRES_ADMISSION",
+    "ACTUATION_IS_NOT_EFFECT",
+    "EFFECT_IS_NOT_RECEIPT",
+    "RECEIPT_MUST_BIND_TO_OBSERVED_RUNTIME_STATE"
+  ],
+  "first_transition": {
+    "name": "REALISELF_COGNITION_RUNTIME_BOOTSTRAP",
+    "preconditions": [
+      "POINTER_CUSTODIED",
+      "GGUF_ARTIFACT_LOCATED",
+      "GGUF_HASH_VERIFIED",
+      "MODEL_INSTANCE_DECLARED",
+      "ALCHEMYGENESISDAEMON_RUNTIME_DEFINED",
+      "ADMISSION_GRANTED"
+    ],
+    "action": "BUILD_ALCHEMYGENESISDAEMON_AROUND_VERIFIED_MODEL_SUBSTRATE",
+    "effect": "NOT_YET_ESTABLISHED"
+  }
+}
