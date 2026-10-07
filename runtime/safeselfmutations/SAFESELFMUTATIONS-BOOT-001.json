@@ -1,0 +1,38 @@
+{
+  "receipt_id": "SAFESELFMUTATIONS-BOOT-001",
+  "protocol": "SAFESELFMUTATIONS",
+  "version": "V.001",
+  "timestamp": "2026-10-07T14:33:34Z",
+  "rawmac": {
+    "host": "OURSELFMAC.lan",
+    "path": "/Users/millysituated/OURSELF/runtime/safeselfmutations/SAFESELFMUTATIONS.v0.1.json",
+    "sha256": "4c48fbc2259636957404fe72cb45e8f76b517ce0bdaf3d4d26ddd6b53de789ec",
+    "readback": "VERIFIED"
+  },
+  "github": {
+    "repository": "situaedmilly/Cognitive-Transmutation-Core",
+    "branch": "main",
+    "path": "runtime/safeselfmutations/SAFESELFMUTATIONS.v0.1.json",
+    "commit_sha": "3bfe53b4648dfcd236313813ed9127a9bceaea99",
+    "blob_sha": "01ae57619ae9c9a4ab7c02e6635c00219403eb63",
+    "readback": "VERIFIED"
+  },
+  "execution": {
+    "configuration_implementation": "EXECUTED",
+    "runtime_self_mutation": "NOT_EXECUTED",
+    "admission": "NOT_REQUESTED_FOR_CONFIG_INSTALL",
+    "external_effect": "FALSE"
+  },
+  "invariant": {
+    "config_exists_on_rawmac": true,
+    "config_exists_in_github": true,
+    "rawmac_github_readback_match": true,
+    "arbitrary_shell_execution": false,
+    "network_execution": false,
+    "overwrite_existing": false,
+    "delete_existing": false,
+    "model_authority": false,
+    "terminal_authority": false
+  },
+  "next_transition": "ADMIT_A_SPECIFIC_BOUNDED_MUTATION_BEFORE_RUNTIME_ACTUATION"
+}
