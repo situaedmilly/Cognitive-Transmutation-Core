@@ -1,0 +1,11 @@
+{
+  "recontact_id": "RECONTACT-0004",
+  "target": "situaedmilly/FLOWACTIONSELFWORK",
+  "remote_commit_id": "f15a5b4dd7bdad71a4147c1245bd433ad421d6cc",
+  "path": "dispatch/PULL-0004.execution.json",
+  "remote_blob_sha": "9e30d9f7550e63caf317c200513b938a1318d76f",
+  "expected_blob_sha": "9e30d9f7550e63caf317c200513b938a1318d76f",
+  "byte_match": "PASS",
+  "point_transition": "SELFGRAPH-BRANCH-0004 -> SELFGRAPH-BRANCH-0005",
+  "canonical_admission": false
+}
