@@ -1,0 +1,22 @@
+{
+  "selfgraph_transition_receipt": "SELFGRAPH-ALCHEMYGENESIS-LAUNCH-002",
+  "supersedes": "SELFGRAPH-ALCHEMYGENESIS-2EDGE-001",
+  "supersedes_law": "INV-SEAL-001: predecessor bytes unchanged",
+  "edge_1": "SELFMOAT -> ALCHEMYGENESISDAEMON",
+  "edge_1_status": "ADMITTED (GRANTED 2026-10-07T20:30:17.114Z)",
+  "edge_2": "ALCHEMYGENESISDAEMON -> VERIFIED_GGUF",
+  "edge_2_status": "REALIZED (sha256 verified 2026-10-07T20:30:08Z)",
+  "edge_3": "VERIFIED_GGUF -> LLAMA_CPP_RUNTIME_11436",
+  "edge_3_status": "REALIZED (model loaded, health ok)",
+  "target_model": "Qwen3.8-27B-GSQ-RCO-IQ2_S",
+  "artifact_sha256": "16c9802111aa9ef3acde465188d6d601f8db128ee3d828ad983a5caca4135ecb",
+  "admission": "GRANTED",
+  "actuation": "COMPLETED_LOCAL",
+  "cognition": "LIVE_LOCAL_WITNESSED",
+  "witness": "COMPLETED",
+  "graph": "/Users/millysituated/OURSELF/third_eye_chamber/graphs/SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001.json",
+  "graph_digest_sha256": "fa1795dd604fbf59f28ca5dbeb73711e68dc521b37bb65514f56657d65ac575a",
+  "github_commit": null,
+  "github_mutation": "NONE",
+  "compiled_at": "2026-10-07T20:33:50.456Z"
+}

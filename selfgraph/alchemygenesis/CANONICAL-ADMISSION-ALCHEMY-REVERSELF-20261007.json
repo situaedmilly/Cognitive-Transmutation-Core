@@ -1,0 +1,42 @@
+{
+  "record_type": "SELFGRAPH_CANONICAL_ADMISSION",
+  "admission_id": "CANONICAL-ADMISSION-ALCHEMY-REVERSELF-20261007",
+  "admitted_at": "2026-10-07T20:38:05Z",
+  "disposition": {
+    "kind": "FOUNDER_DISPOSITION",
+    "declaration": "ALCHEMY REVERSELF CANONICALLY ADMITTED.",
+    "issuer": "FOUNDER",
+    "session": "opencode TERMINAL-THIS-NODE-CRAZY 2026-10-07",
+    "identity_binding": "ROLE_ONLY; NO CRYPTOGRAPHIC IDENTITY ESTABLISHED",
+    "law": "FOUNDER_DISPOSITION -> INSTITUTIONAL_STANDING within Founder jurisdiction. This establishes standing; it is not a technical re-derivation and does not rewrite sealed bytes."
+  },
+  "subject": {
+    "graph_id": "SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001",
+    "graph_digest_sha256": "fa1795dd604fbf59f28ca5dbeb73711e68dc521b37bb65514f56657d65ac575a",
+    "realization": "REVERSELF predicate GENESIS_LAUNCH_PATH_REALIZED_20261007 = ESTABLISHED / COMPLETE",
+    "reverself_receipt": "/Users/millysituated/OURSELF/runtime/witness/REVERSELF-GENESIS-LAUNCH-PATH-20261007.json",
+    "launch_receipt": "/Users/millysituated/OURSELF/third_eye_chamber/receipts/SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001-RECEIPT.json",
+    "runtime_admission": "GRANTED 2026-10-07T20:30:17.114Z",
+    "runtime_admission_receipt": "/Users/millysituated/OURSELF/runtime/witness/ALCHEMY-RUNTIME-ADMISSION-DECISION-20261007.json"
+  },
+  "canonical_custody": {
+    "canonical_copy": "/Users/millysituated/OURSELF/third_eye_chamber/admitted/SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001.canonical.json",
+    "canonical_copy_sha256": "fa1795dd604fbf59f28ca5dbeb73711e68dc521b37bb65514f56657d65ac575a",
+    "digest_matches_sealed_graph": true,
+    "original_sealed_graph": "/Users/millysituated/OURSELF/third_eye_chamber/graphs/SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001.json",
+    "seal_law": "INV-SEAL-001: neither copy is ever rewritten; corrections produce superseding successors"
+  },
+  "transition": "G_1 -> G_2: canonical_admission NOT_CLAIMED -> CANONICALLY_ADMITTED",
+  "standing_non_collapse": {
+    "institutional_standing": "CANONICALLY_ADMITTED (Founder disposition)",
+    "technical_realization": "ESTABLISHED (REVERSLF COMPLETE)",
+    "github_custody": "NOT_ESTABLISHED (remote mutation not in this disposition)",
+    "external_effect": "NONE"
+  },
+  "invariants": {
+    "INV-SEAL-001": "PASS — sealed graph bytes untouched; admission is additive",
+    "INV-AUTHORITY-001": "PASS — standing derives from Founder word, recorded as such",
+    "INV-TRANSITION-001": "PASS — explicit additive transition, not a retro-edit",
+    "INV-EVIDENCE-001": "PASS — disposition + realization receipts recontactable"
+  }
+}

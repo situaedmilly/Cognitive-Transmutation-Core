@@ -1,0 +1,204 @@
+{
+  "authority": {
+    "declaration": "GO EXECUTE (genesis selfgraph launch)",
+    "identity_binding": "ROLE_ONLY; NO CRYPTOGRAPHIC IDENTITY ESTABLISHED",
+    "issuer": "FOUNDER",
+    "scope": "GENESIS_SELFGRAPH_LAUNCH",
+    "session": "opencode TERMINAL-THIS-NODE-CRAZY 2026-10-07"
+  },
+  "compiled_at": "2026-10-07T20:33:50.456Z",
+  "edges": [
+    {
+      "edge_type": "ADMITS",
+      "evidence": [
+        "/Users/millysituated/OURSELF/runtime/witness/ALCHEMY-RUNTIME-ADMISSION-DECISION-20261007.json"
+      ],
+      "id": "e1",
+      "source": "SELFMOAT",
+      "standing": "VERIFIED",
+      "target": "ALCHEMYGENESISDAEMON"
+    },
+    {
+      "edge_type": "BINDS",
+      "evidence": [
+        "/Users/millysituated/OURSELF/runtime/witness/ALCHEMY-RUNTIME-ADMISSION-DECISION-20261007.json",
+        "/Users/millysituated/OURSELF/runtime/witness/REVERSELF-GENESIS-LAUNCH-PATH-20261007.json"
+      ],
+      "id": "e2",
+      "source": "ALCHEMYGENESISDAEMON",
+      "standing": "VERIFIED",
+      "target": "VERIFIED_GGUF"
+    },
+    {
+      "edge_type": "LOADED_BY",
+      "evidence": [
+        "/Users/millysituated/OURSELF/llama_server_11436.log",
+        "/Users/millysituated/OURSELF/third_eye/runtime_reality/SELFREALIZE-20261007T201958-OURSELFMAC.json"
+      ],
+      "id": "e3",
+      "source": "VERIFIED_GGUF",
+      "standing": "VERIFIED",
+      "target": "LLAMA_CPP_RUNTIME_11436"
+    },
+    {
+      "edge_type": "SERVES",
+      "evidence": [
+        "/Users/millysituated/OURSELF/third_eye/runtime_reality/SELFREALIZE-20261007T201958-OURSELFMAC.json",
+        "/Users/millysituated/OURSELF/runtime/witness/REVERSELF-GENESIS-LAUNCH-PATH-20261007.json"
+      ],
+      "id": "e4",
+      "source": "LLAMA_CPP_RUNTIME_11436",
+      "standing": "VERIFIED",
+      "target": "ALCHEMYGENESISMODEL"
+    },
+    {
+      "edge_type": "EMITTED",
+      "evidence": [
+        "/Users/millysituated/OURSELF/runtime/witness/WITNESS-ACTIONWORKAUTOMATION-GATE-20261007.md",
+        "/Users/millysituated/OURSELF/runtime/witness/REVERSELF-GENESIS-LAUNCH-PATH-20261007.json"
+      ],
+      "id": "e5",
+      "source": "LLAMA_CPP_RUNTIME_11436",
+      "standing": "VERIFIED",
+      "target": "COGNITION_EVENT_001"
+    },
+    {
+      "edge_type": "BOUND_TO",
+      "evidence": [
+        "/Users/millysituated/OURSELF/runtime/witness/WITNESS-ACTIONWORKAUTOMATION-GATE-20261007.md",
+        "/Users/millysituated/OURSELF/third_eye/runtime_reality/SELFREALIZE-20261007T201958-OURSELFMAC.json"
+      ],
+      "id": "e6",
+      "source": "HERMES_INSTANCE",
+      "standing": "VERIFIED",
+      "target": "LLAMA_CPP_RUNTIME_11436"
+    },
+    {
+      "edge_type": "EMITTED",
+      "evidence": [
+        "/Users/millysituated/OURSELF/runtime/witness/WITNESS-ACTIONWORKAUTOMATION-GATE-20261007.md"
+      ],
+      "id": "e7",
+      "source": "HERMES_INSTANCE",
+      "standing": "VERIFIED",
+      "target": "HERMES_WITNESS_EVENT"
+    }
+  ],
+  "graph_id": "SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001",
+  "held_not_asserted": [
+    "GITHUB_CUSTODY (repositories marked PLANNED; no push authorized in this packet)",
+    "EXTERNAL_EFFECT of any kind"
+  ],
+  "invariants_evaluated": {
+    "INV-AUTHORITY-001": "PASS — authority = Founder declaration, recorded, role-only binding",
+    "INV-EVIDENCE-001": "PASS — every VERIFIED edge carries recontactable evidence",
+    "INV-IDENTITY-001": "PASS — no merges; alias/ctx delta preserved as property",
+    "INV-SEAL-001": "PASS — predecessor receipt untouched",
+    "INV-TOPOLOGY-001": "PASS — induced subgraph over all 7 edges is acyclic (DAG)",
+    "INV-TRANSITION-001": "PASS — explicit G_0 -> G_1 packet"
+  },
+  "mutation_packet": {
+    "add": [
+      "8 nodes",
+      "7 edges (above)"
+    ],
+    "postconditions": {
+      "external_effect": false,
+      "github_mutation": false,
+      "graph_compiled": true
+    },
+    "preconditions": {
+      "ADMISSION_GRANTED": "SATISFIED: 2026-10-07T20:30:17.114Z",
+      "ALCHEMYGENESISDAEMON_RUNTIME_DEFINED": "SATISFIED: pid 5055",
+      "GGUF_ARTIFACT_LOCATED": "SATISFIED",
+      "GGUF_HASH_VERIFIED": "SATISFIED: fresh sha256 2026-10-07T20:30:08Z",
+      "MODEL_INSTANCE_DECLARED": "SATISFIED",
+      "POINTER_CUSTODIED": "SATISFIED: ALC-REALISELF-RUNTIME-001"
+    },
+    "remove": []
+  },
+  "nodes": [
+    {
+      "id": "SELFMOAT",
+      "properties": {
+        "role": "selective_membrane",
+        "status": "ACTIVE"
+      },
+      "type": "GOVERNANCE_MEMBRANE"
+    },
+    {
+      "id": "ALCHEMYGENESISDAEMON",
+      "properties": {
+        "admission": "GRANTED",
+        "admission_decided_at": "2026-10-07T20:30:17.114Z",
+        "pid": 5055,
+        "status": "ADMITTED_LIVE_LOCAL"
+      },
+      "type": "RUNTIME"
+    },
+    {
+      "id": "VERIFIED_GGUF",
+      "properties": {
+        "hash_verified_at": "2026-10-07T20:30:08Z",
+        "path": "/Users/millysituated/OURSELF/models/genesis-qwen38-27b-iq2s-80k/Qwen3.8-27B-GSQ-RCO-IQ2_S.gguf",
+        "sha256": "16c9802111aa9ef3acde465188d6d601f8db128ee3d828ad983a5caca4135ecb",
+        "size_bytes": 9259510912
+      },
+      "type": "ARTIFACT"
+    },
+    {
+      "id": "LLAMA_CPP_RUNTIME_11436",
+      "properties": {
+        "ctx_size": 65536,
+        "endpoint": "http://127.0.0.1:11436",
+        "gpu_layers": 99,
+        "health": "ok",
+        "kv": "q4_0/q4_0",
+        "parallel": 1
+      },
+      "type": "SUBSTRATE"
+    },
+    {
+      "id": "ALCHEMYGENESISMODEL",
+      "properties": {
+        "alias": "ourself-qwen38-27b-iq2s-80k",
+        "model_name": "Qwen3.8-27B-GSQ-RCO-IQ2_S",
+        "ontology_delta": "alias names 80k; realized ctx 65536 — preserved, not collapsed"
+      },
+      "type": "MODEL_IDENTITY"
+    },
+    {
+      "id": "COGNITION_EVENT_001",
+      "properties": {
+        "completion_id": "chatcmpl-3s6e4J2NSjAtdMzoTDVcZ0y1QIHrwaxU",
+        "probe": "GENESIS_COGNITION_LIVE_LOCAL",
+        "returned_exact": true
+      },
+      "type": "EVENT"
+    },
+    {
+      "id": "HERMES_INSTANCE",
+      "properties": {
+        "base_url": "http://127.0.0.1:11436/v1",
+        "config_sha256": "34e2e2b126248572433f7f0afff43c00d3c39b55a4ab88659282a6c68be5a7fe"
+      },
+      "type": "AGENT_FRONTEND"
+    },
+    {
+      "id": "HERMES_WITNESS_EVENT",
+      "properties": {
+        "probe": "HERMES_GENESIS_BOUND",
+        "returned_exact": true,
+        "server_slot_task": 118
+      },
+      "type": "EVENT"
+    }
+  ],
+  "predecessor": {
+    "path": "/Users/millysituated/OURSELF/runtime/reality/SELFGRAPH-ALCHEMYGENESIS-2EDGE-001.json",
+    "receipt": "SELFGRAPH-ALCHEMYGENESIS-2EDGE-001",
+    "relation": "SUPERSEDES_STATUSES_ONLY; predecessor bytes preserved per INV-SEAL-001"
+  },
+  "record_type": "SELFGRAPH",
+  "schema": "DSM-000 finite directed labeled property multigraph"
+}

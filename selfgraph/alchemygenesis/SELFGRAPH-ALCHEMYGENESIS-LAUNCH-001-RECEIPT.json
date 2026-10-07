@@ -1,0 +1,25 @@
+{
+  "record_type": "SELFGRAPH_LAUNCH_RECEIPT",
+  "graph_id": "SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001",
+  "graph_path": "/Users/millysituated/OURSELF/third_eye_chamber/graphs/SELFGRAPH-ALCHEMYGENESIS-LAUNCH-001.json",
+  "graph_digest_sha256": "fa1795dd604fbf59f28ca5dbeb73711e68dc521b37bb65514f56657d65ac575a",
+  "compiled_at": "2026-10-07T20:33:50.456Z",
+  "transition": "REALISELF_COGNITION_RUNTIME_BOOTSTRAP -> BUILD_ALCHEMYGENESISDAEMON_AROUND_VERIFIED_MODEL_SUBSTRATE",
+  "decision_basis": {
+    "admission": "/Users/millysituated/OURSELF/runtime/witness/ALCHEMY-RUNTIME-ADMISSION-DECISION-20261007.json",
+    "reverself": "/Users/millysituated/OURSELF/runtime/witness/REVERSELF-GENESIS-LAUNCH-PATH-20261007.json",
+    "witness": "/Users/millysituated/OURSELF/runtime/witness/WITNESS-ACTIONWORKAUTOMATION-GATE-20261007.md",
+    "thirdeye": "/Users/millysituated/OURSELF/third_eye/runtime_reality/SELFREALIZE-20261007T201958-OURSELFMAC.json",
+    "state": "/Users/millysituated/OURSELF/runtime/reality/ALCHEMYGENESISDAEMON.state.json",
+    "server_log": "/Users/millysituated/OURSELF/llama_server_11436.log"
+  },
+  "seal": "DIGEST_ATTESTS_THESE_BYTES; corrections produce successors, never rewrites",
+  "status_non_collapse": {
+    "observation": "COMPLETED",
+    "authorized_rewrite": "COMPLETED (Founder WORD)",
+    "successful_rewrite": "COMPLETED (local, additive)",
+    "verified_resulting_state": "COMPLETED (REVERSLF ESTABLISHED/COMPLETE)",
+    "sealed_snapshot": "THIS_DIGEST",
+    "canonical_admission": "NOT_CLAIMED"
+  }
+}

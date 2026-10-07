@@ -1,0 +1,27 @@
+{
+  "record_type": "ALCHEMY_RUNTIME_ADMISSION_DECISION",
+  "schema_version": "1.0.0",
+  "runtime_identity": "ALCHEMYGENESISDAEMON",
+  "model_identity": "ALCHEMYGENESISMODEL",
+  "decided_at": "2026-10-07T20:30:17.114Z",
+  "decision": "GRANTED",
+  "checks": {
+    "runtime_identity_and_forward_binding": true,
+    "model_identity_and_reverse_binding": true,
+    "artifact_identity_and_integrity": true,
+    "scoped_current_authority": true
+  },
+  "failed_checks": [],
+  "evidence_ids": {
+    "runtime": "runtime-health-11436-20261007T202943Z",
+    "runtime_model_binding": "runtime-modelid-api-11436-20261007T202943Z",
+    "model": "model-api-identity-ourself-qwen38-27b-iq2s-80k-20261007T202943Z",
+    "model_runtime_binding": "model-runtime-pid5055-listener-20261007T202943Z",
+    "artifact": "artifact-shasum-fresh-20261007",
+    "authority": "founder-input-run-admission-20261007-session"
+  },
+  "actuation": "NOT_PERFORMED",
+  "cognition": "NOT_STARTED",
+  "external_effect": "NOT_ESTABLISHED",
+  "receipt": "NOT_ISSUED"
+}
