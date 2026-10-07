@@ -1,0 +1,55 @@
+{
+  "selfgraph_transition_receipt": "SELFGRAPH-ALCHEMYGENESIS-2EDGE-001",
+  "schema_version": "0.1.0",
+  "reality_instance": {
+    "pointer_id": "ALC-REALISELF-RUNTIME-001",
+    "reality_scope": [
+      "CHAMBOXREALITY-2051",
+      "OURTEXTNOWSELF",
+      "OLLAMA_COGNITIVE_SUBSTRATE",
+      "REVERSELF_COGNITION",
+      "SAFESELFMUTATIONS"
+    ],
+    "primary_custody": "situaedmilly/Cognitive-Transmutation-Core@alchemy/realself-runtime-v0.1"
+  },
+  "requested_edges": [
+    {
+      "edge": 1,
+      "from": "SELFMOAT",
+      "to": "ALCHEMYGENESISDAEMON",
+      "status": "IDENTITY_DECLARED",
+      "runtime_identity": "ALCHEMYGENESISDAEMON",
+      "authority": "OURSELF",
+      "model_identity": "ALCHEMYGENESISMODEL"
+    },
+    {
+      "edge": 2,
+      "from": "ALCHEMYGENESISDAEMON",
+      "to": "VERIFIED_GGUF",
+      "status": "BLOCKED_PREIMAGE_UNVERIFIED",
+      "target_model": "Qwen3.8-27B-GSQ-RCO-IQ2_S",
+      "target_alias": "ourself-qwen38-27b-iq2s-80k:latest",
+      "required_artifact": "Qwen3.8-27B-GSQ-RCO-IQ2_S.gguf",
+      "observed": [
+        "/Users/millysituated/OURSELF/models/thinkingcap-qwen38-27b/ThinkingCap-Qwen3.8-27B-IQ2_XS.gguf",
+        "/Users/millysituated/OURSELF/models/genesis-qwen38-27b-iq2s-80k/.cache/huggingface/download/Qwen3.8-27B-IQ2_S.gguf.lock",
+        "/Users/millysituated/OURSELF/models/genesis-qwen38-27b-iq2s-80k/.cache/huggingface/download/Qwen3.8-27B-IQ2_S.gguf.metadata"
+      ],
+      "artifact_sha256": null,
+      "admission": "NOT_GRANTED",
+      "actuation": "NOT_STARTED",
+      "cognition": "NOT_STARTED",
+      "witness": "NOT_STARTED",
+      "receipt": "THIS_RECEIPT"
+    }
+  ],
+  "invariants": [
+    "IDENTITY != ARTIFACT_VERIFICATION",
+    "ARTIFACT_VERIFICATION != SUBSTRATE_BINDING",
+    "ADMISSION != ACTUATION",
+    "ACTUATION != EFFECT",
+    "EFFECT != RECEIPT"
+  ],
+  "next_open_edge": "VERIFIED_GGUF -> SUBSTRATE_ADAPTER",
+  "blocking_condition": "EXACT_QWEN38_27B_GSQ_RCO_IQ2_S_GGUF_NOT_PRESENT_AS_VERIFIABLE_FILE"
+}
