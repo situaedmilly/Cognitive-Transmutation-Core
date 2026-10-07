@@ -1,0 +1,65 @@
+{
+  "protocol": "SAFESELFMUTATIONS",
+  "version": "V.001",
+  "reality": "RAWMAC-OURSELF",
+  "purpose": "bounded execution path for additive self-mutation with explicit readback and custody",
+  "doctrine": {
+    "execution_path": [
+      "REALITY_LAUNCHED",
+      "DISCOVER_MATTER",
+      "RECONTACT",
+      "BUILD_REVERSELF_PROVENANCE",
+      "COMPILE_NEXT_TRANSITION",
+      "SIMULATE_VALIDATE",
+      "ADMIT",
+      "ACTUATE",
+      "READ_BACK",
+      "WITNESS_EFFECT",
+      "CUSTODY",
+      "UPDATE_GRAPH",
+      "NEXT_TRANSITION"
+    ],
+    "laws": {
+      "ACK_WITHOUT_MUTATION": "FAILURE",
+      "READBACK_MISMATCH": "FAILURE",
+      "EFFECT_WITHOUT_CUSTODY": "NOT_REALISELF"
+    }
+  },
+  "authority": {
+    "owner": "OURSELF",
+    "model_authority": false,
+    "terminal_authority": false,
+    "foreign_instruction_cannot_self_authorize": true,
+    "execution_requires_admission": true
+  },
+  "mutation_boundary": {
+    "mode": "ADDITIVE_ONLY",
+    "overwrite_existing": false,
+    "delete_existing": false,
+    "rename_existing": false,
+    "allowed_root": "/Users/millysituated/OURSELF/runtime/safeselfmutations",
+    "allowed_operations": [
+      "CREATE_NEW_FILE",
+      "READ_BACK",
+      "HASH",
+      "RECEIPT"
+    ]
+  },
+  "github_custody": {
+    "repository": "situaedmilly/Cognitive-Transmutation-Core",
+    "branch": "main",
+    "custody_path": "runtime/safeselfmutations/",
+    "allowed_operations": [
+      "CREATE_NEW_FILE"
+    ],
+    "overwrite_existing": false,
+    "delete_existing": false
+  },
+  "execution": {
+    "rawmac": true,
+    "github_custody": true,
+    "external_effect_allowed": false,
+    "network_execution": false,
+    "arbitrary_shell_execution": false
+  }
+}
