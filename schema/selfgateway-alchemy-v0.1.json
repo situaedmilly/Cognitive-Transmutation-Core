@@ -1,0 +1,7 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"SELFgateway Alchemy Signal",
+  "type":"object",
+  "required":["kind","gateway","network","authority","receipt"],
+  "properties":{"kind":{"const":"SELF_GATEWAY_ALCHEMY"},"gateway":{"type":"object"},"network":{"type":"object"},"authority":{"type":"object"},"receipt":{"type":"object"}}
+}
