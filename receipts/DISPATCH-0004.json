@@ -1,0 +1,15 @@
+{
+  "receipt_id": "RECEIPT-DISPATCH-0004",
+  "dispatch_id": "DISPATCH-0004",
+  "input_id": "INPUT-0004",
+  "pull_id": "PULL-0004",
+  "thought_id": "THOUGHT-0004",
+  "gate_id": "GATE-0004",
+  "executor_instance_id": "CHATGPT_INSTANCE_001",
+  "dispatching_instance_id": "GPTSELF-C",
+  "status": "DISPATCHED",
+  "action_repo": "situaedmilly/FLOWACTIONSELFWORK",
+  "action_repo_commit_id": "7f2f3e010b132f4a8938f2406dd4e98641f381d5",
+  "thought_blob_sha": "8a1698f4565bea40d21fcb50df510f11def2ba7d",
+  "note": "Dispatch is recorded. CHATGPT_INSTANCE_001 execution, PUSH-0004, effect, gate completion, and verified push remain unasserted."
+}
