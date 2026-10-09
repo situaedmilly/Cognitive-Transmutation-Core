@@ -1,0 +1,26 @@
+{
+  "record_type": "OURSELF_REMOTE_CUSTODY_ADMISSION",
+  "schema_version": "0.1.0",
+  "matter_ref": "bubble-sourcebytes-20261009-1544",
+  "encounter_ref": "enc_8387f18b-5359-4948-b08e-e9466ee6660a",
+  "conversation_occurrence_ref": "ACTIMANIRUN-BUBBLESELF-ALCHEMY",
+  "payload_hash": "04ef5e23490a8f29fbd61e81e0ea1278dea9be95e0f9de7373fc857b07aafb2d",
+  "source_artifact": {
+    "local_ref": "source-bytes/bubble-sourcebytes-20261009-1544.raw",
+    "sha256": "0909467e2f8976b8e073a2aec5c53aae1c9d352d74db7f2ede700c1b69d40b86",
+    "byte_length": 246,
+    "remote_path": "runtime/safeselfmutations/BUBBLE-SOURCE-bubble-sourcebytes-20261009-1544.raw.json",
+    "remote_blob_sha": "09f70a1a21c92b23105f35ef3da3dcbe5d78b746",
+    "source_text_readback_matched": true
+  },
+  "local_admission": {
+    "path": "/Users/millysituated/OURSELF/runtime/safeselfmutations/MATTER-ADMISSION-bubble-sourcebytes-20261009-1544.json",
+    "sha256": "7b303fff3db0314eaaaebb1571a42bcac38cecb457d8e0ba480bb32eebef79ad",
+    "readback_verified": true
+  },
+  "remote_custody": "ESTABLISHED_FOR_SOURCE_ARTIFACT_AND_THIS_ADMISSION_RECORD",
+  "separate_external_registry": "NOT_ESTABLISHED",
+  "cognitive_evaluation": "BLOCKED_RUNTIME_TIMEOUT",
+  "hollaback": "NOT_DELIVERED_NO_BOUND_RECIPIENT_OR_DELIVERY_ENDPOINT",
+  "external_effect": false
+}
