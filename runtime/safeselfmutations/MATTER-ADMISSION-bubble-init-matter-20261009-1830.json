@@ -1,0 +1,39 @@
+{
+  "record_type": "OURSELF_CANONICAL_MATTER_ADMISSION",
+  "schema_version": "0.1.0",
+  "admission_id": "MATTER-ADMISSION-bubble-init-matter-20261009-1830",
+  "admitted_at": "2026-10-09T18:58:00Z",
+  "admitted_by": "FOUNDER_AUTHORIZED_PIPEPORTAL_EXECUTION",
+  "reality": "BUBBLESELF-ALCHEMY",
+  "actimanirun": "ACTIMANIRUN-BUBBLESELF-ALCHEMY",
+  "subject": {
+    "matter_ref": "bubble-init-matter-20261009-1830",
+    "encounter_ref": "enc_b901a929-958d-4fb0-8a33-3cbd65a6740b",
+    "conversation_occurrence_ref": "ACTIMANIRUN-BUBBLESELF-ALCHEMY",
+    "request_id": "bubble-init-20261009-1830",
+    "payload_hash": "1981ff39400e60fa16e833f194f30a8d7402062e505c154ba70055bab20df917",
+    "intake_received_at": "2026-10-09T18:48:18.090Z"
+  },
+  "custody": {
+    "standing": "CANONICAL_LOCAL_ADMISSION",
+    "local_envelope_sha256": "d9d4db512767d3c3687165b3bfd171fce0f4c2dc8b4f0ce6373a2d8094a3715d",
+    "remote_github_custody": "PENDING_REMOTE_COMMIT_AND_READBACK"
+  },
+  "evaluation": {
+    "standing": "BLOCKED_MISSING_SOURCE_BYTES",
+    "reason": "Original founder_input bytes are absent from the existing intake record.",
+    "selfstatement_ref": null
+  },
+  "readback": {
+    "local_readback_receipt": "MATTER-READBACK-bubble-init-matter-20261009-1830.json",
+    "local_readback_sha256": "2957fc8b62c4c56efd1f3d84f1f3575095d3344558bed0cd0592fed8cc7a0c53",
+    "remote_readback": "PENDING"
+  },
+  "hollaback": {
+    "standing": "NOT_DELIVERED",
+    "recipient": null,
+    "delivery_receipt": null
+  },
+  "external_effect": false,
+  "law": "This record declares an admission claim; remote canonical custody becomes established only after this file is committed and independently fetched from GitHub with matching blob and commit identity."
+}
