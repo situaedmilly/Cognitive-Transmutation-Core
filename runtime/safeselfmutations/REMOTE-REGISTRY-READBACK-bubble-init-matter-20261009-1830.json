@@ -1,0 +1,51 @@
+{
+  "record_type": "OURSELF_REMOTE_CANONICAL_REGISTRY_READBACK",
+  "schema_version": "0.1.0",
+  "receipt_id": "REMOTE-REGISTRY-READBACK-bubble-init-matter-20261009-1830",
+  "verified_at": "2026-10-09T19:02:00Z",
+  "registry_admission_id": "REMOTE-REGISTRY-ADMISSION-bubble-init-matter-20261009-1830",
+  "repository": "situaedmilly/Cognitive-Transmutation-Core",
+  "branch": "main",
+  "subject": {
+    "matter_ref": "bubble-init-matter-20261009-1830",
+    "payload_hash": "1981ff39400e60fa16e833f194f30a8d7402062e505c154ba70055bab20df917"
+  },
+  "remote_files": [
+    {
+      "path": "runtime/safeselfmutations/MATTER-ADMISSION-bubble-init-matter-20261009-1830.json",
+      "commit_sha": "d908ccff069f6e56244c8fb2579b90bb439f34c9",
+      "blob_sha": "578941a039783142e678121672be0ff0a0904997",
+      "independently_fetched": true
+    },
+    {
+      "path": "runtime/safeselfmutations/MATTER-READBACK-bubble-init-matter-20261009-1830.json",
+      "commit_sha": "9daa82b4cc21ce54ca0dfc3dc5431881bd27836c",
+      "blob_sha": "b4f388fe6b8179d4c9c47cf01907a6a503b10416",
+      "independently_fetched": true
+    },
+    {
+      "path": "runtime/safeselfmutations/REMOTE-REGISTRY-ADMISSION-bubble-init-matter-20261009-1830.json",
+      "commit_sha": "27f737840abab5a68545c0ebda9f9c7bb05b19fd",
+      "blob_sha": "4042b9be43483a8496524bd9c2dbb7de2d37d93b",
+      "independently_fetched": true
+    }
+  ],
+  "checks": {
+    "admission_matter_ref_matches_expected": true,
+    "admission_payload_hash_matches_expected": true,
+    "readback_matter_ref_matches_expected": true,
+    "readback_source_payload_hash_matches_expected": true,
+    "registry_record_identifies_expected_repository_and_branch": true,
+    "remote_blob_ids_observed_from_github_contents_api": true
+  },
+  "standing": "REMOTE_FILES_COMMITTED_AND_FETCHED; REGISTRY READBACK WITNESSED",
+  "scope_boundary": {
+    "github_repository_custody": "ESTABLISHED_FOR_THESE_REMOTE_FILES",
+    "separate_external_registry_service": "NOT_INDEPENDENTLY_ESTABLISHED; registry admission is represented by an additive record within this GitHub repository",
+    "original_founder_input_bytes": "MISSING",
+    "cognitive_evaluation": "BLOCKED",
+    "hollaback_delivery": "NOT_DELIVERED"
+  },
+  "external_effect": false,
+  "law": "This receipt is an additive successor witness; it does not rewrite prior receipts or claim an external registry service that was not observed."
+}
