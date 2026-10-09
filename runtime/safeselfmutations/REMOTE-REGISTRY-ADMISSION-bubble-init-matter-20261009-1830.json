@@ -1,0 +1,50 @@
+{
+  "record_type": "OURSELF_REMOTE_CANONICAL_REGISTRY_ADMISSION",
+  "schema_version": "0.1.0",
+  "registry_admission_id": "REMOTE-REGISTRY-ADMISSION-bubble-init-matter-20261009-1830",
+  "admitted_at": "2026-10-09T19:00:00Z",
+  "jurisdiction": "OURSELF / BUBBLESELF-ALCHEMY",
+  "actimanirun": "ACTIMANIRUN-BUBBLESELF-ALCHEMY",
+  "registry": {
+    "repository": "situaedmilly/Cognitive-Transmutation-Core",
+    "branch": "main",
+    "custody_path": "runtime/safeselfmutations/",
+    "canonicality_scope": "REMOTE GITHUB REPOSITORY CUSTODY; NOT A CLAIM OF UNIVERSAL OR EXTERNAL REGISTRY AUTHORITY"
+  },
+  "subject": {
+    "matter_ref": "bubble-init-matter-20261009-1830",
+    "encounter_ref": "enc_b901a929-958d-4fb0-8a33-3cbd65a6740b",
+    "payload_hash": "1981ff39400e60fa16e833f194f30a8d7402062e505c154ba70055bab20df917",
+    "admission_file": "runtime/safeselfmutations/MATTER-ADMISSION-bubble-init-matter-20261009-1830.json",
+    "admission_commit_sha": "d908ccff069f6e56244c8fb2579b90bb439f34c9",
+    "readback_file": "runtime/safeselfmutations/MATTER-READBACK-bubble-init-matter-20261009-1830.json",
+    "readback_commit_sha": "9daa82b4cc21ce54ca0dfc3dc5431881bd27836c"
+  },
+  "admission_basis": {
+    "founder_authorized_execution": true,
+    "local_payload_hash_matched_intake": true,
+    "local_readback_envelope_verified": true,
+    "remote_files_created_through_github_contents_api": true
+  },
+  "remote_readback": {
+    "independent_fetch_verified": false,
+    "status": "PENDING_INDEPENDENT_REMOTE_FETCH",
+    "required_checks": [
+      "fetch admission file from main",
+      "fetch readback file from main",
+      "verify exact payload hash and matter_ref",
+      "verify commit identities"
+    ]
+  },
+  "cognitive_evaluation": {
+    "status": "BLOCKED_MISSING_SOURCE_BYTES",
+    "selfstatement_ref": null
+  },
+  "hollaback": {
+    "status": "NOT_DELIVERED",
+    "recipient": null,
+    "delivery_receipt": null
+  },
+  "external_effect": false,
+  "law": "This registry record is additive. It does not rewrite the sealed intake receipt. Remote custody standing remains pending until independent fetch/readback succeeds."
+}
