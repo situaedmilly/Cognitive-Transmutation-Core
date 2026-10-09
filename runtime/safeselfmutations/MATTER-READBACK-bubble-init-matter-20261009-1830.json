@@ -1,0 +1,26 @@
+{
+  "record_type": "OURSELF_CUSTODY_READBACK_RECEIPT",
+  "receipt_id": "MATTER-READBACK-bubble-init-matter-20261009-1830",
+  "as_of": "2026-10-09T18:58:14.896Z",
+  "matter_ref": "bubble-init-matter-20261009-1830",
+  "admission_id": "MATTER-ADMISSION-bubble-init-matter-20261009-1830",
+  "source_intake_payload_hash": "1981ff39400e60fa16e833f194f30a8d7402062e505c154ba70055bab20df917",
+  "admission_file_sha256": "d9d4db512767d3c3687165b3bfd171fce0f4c2dc8b4f0ce6373a2d8094a3715d",
+  "admission_payload_hash": "1981ff39400e60fa16e833f194f30a8d7402062e505c154ba70055bab20df917",
+  "checks": {
+    "intake_record_found": true,
+    "admission_record_found": true,
+    "matter_ref_match": true,
+    "payload_hash_match": true,
+    "admission_file_hash_computed": true,
+    "source_bytes_available": false
+  },
+  "standing": "READBACK_VERIFIED_FOR_ADMISSION_ENVELOPE_ONLY",
+  "limitations": [
+    "Original founder_input bytes are absent from intake store.",
+    "Cognitive evaluation remains blocked.",
+    "Remote GitHub custody requires independently fetched remote records.",
+    "No HOLLABACK recipient is bound."
+  ],
+  "external_effect": false
+}
