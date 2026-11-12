@@ -119,7 +119,7 @@ Define how to revoke founder sessions, invalidate outstanding requests, expire c
 
 ## 4. Live inventory boundary
 
-<badge color="warning">Not yet verified</badge>
+Not yet verified
 
 I checked the available integration directory for a Cloudflare account-management connector. No suitable Cloudflare connector surfaced in the results.
 
