@@ -18,7 +18,6 @@ Additional read-only:
 - Memberships Read
 - Account Zone Read
 - Zone Read
-- DNS Read
 - Access Read
 - Access Applications Read
 - Access Policies Read
